@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Flux d'échanges entre les branches de la filière forêt-bois"
+  },
+  "text": {
+    "more": "La taille des noeuds est fonction du nombre de flux de consommations intermédiaires sortant de ces noeuds",
+    "intro": "Cette cartographie dynamique permet de mettre en avant les multiples interactions entre les branches de la filière. Il permet d'identifier l'amont et l'aval de chaque branche. </br></br>Chacune des 55 branches de la filière est représentée par une bulle.</br></br>La taille des noeuds est fonction du nombre de flux de consommations intermédiaires sortant de ces noeuds. </br></br>L'épaisseur des arcs illustre le volume monétaire échangé lors d'achats de consommation intermédiaire, qui sont la valeur des biens et services transformés ou enti&egrave;rement consommés au cours du processus de production. ",
+    "title": ""
+  },
+  "legend": {
+    "edgeLabel": "Flux d'échanges (k€)",
+    "colorLabel": "Activité",
+    "nodeLabel": "Branches"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Activité",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultEdgeColor": "#000000",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 17,
+      "defaultLabelHoverColor": "#fff",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 13
+    },
+    "graphProperties": {
+      "maxEdgeSize": 75,
+      "minEdgeSize": 0.005,
+      "minNodeSize": 3,
+      "maxNodeSize": 30
+    },
+    "mouseProperties": {
+      "maxRatio": 10,
+      "minRatio": 0.75
+    }
+  }
+}
